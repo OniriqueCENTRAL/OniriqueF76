@@ -8,9 +8,9 @@ on:
   workflow_dispatch:
 
 env:
-  TARGET: Onirique1176            # cible CMake
-  PRODUCT: ONIRIQUE 1176          # PRODUCT_NAME du plugin
-  SLUG: onirique-1176             # identifiant du plugin dans ONIRIQUE CENTRAL (= identifiant de licence)
+  TARGET: OniriqueF76            # cible CMake
+  PRODUCT: ONIRIQUE F76          # PRODUCT_NAME du plugin
+  SLUG: onirique-f76             # identifiant du plugin dans ONIRIQUE CENTRAL (= identifiant de licence)
 
 jobs:
   mac:
@@ -20,7 +20,7 @@ jobs:
       - name: Compiler (universel arm64 + x86_64)
         run: |
           cmake -B build -G Xcode -DSOLO_TESTS=OFF
-          cmake --build build --config Release --target Onirique1176_VST3 Onirique1176_AU -- -quiet
+          cmake --build build --config Release --target OniriqueF76_VST3 OniriqueF76_AU -- -quiet
       - name: Signer (ad hoc) et empaqueter
         run: |
           OUT="build/${TARGET}_artefacts/Release"

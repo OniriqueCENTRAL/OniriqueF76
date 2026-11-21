@@ -1,4 +1,4 @@
-# ONIRIQUE 1176 (JUCE 8 / VST3, AU)
+# ONIRIQUE F76 (JUCE 8 / VST3, AU)
 
 le compresseur FET de VOCALBOX (BLACK / BLUE) : INPUT, OUTPUT, ATTACK, RELEASE, RATIO 4 / 8 / 12 / 20 / ALL, METER GR / +8 / +4 / OFF, sur une façade à lui dans la DA ONIRIQUE, avec son VU.
 En bas : OVERSAMPLING (OFF / 2x / 4x / 8x, latence déclarée), MIX (son direct en phase), réduction de gain.
